@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3d53387f1606c41b3f1c325ca8f445, type: 3}
+  m_Name: BuildingCollection
+  m_EditorClassIdentifier: 
+  islandInfoCollection:
+  - level: 1
+    numberOfBuildings: 2
+    buildingInfo:
+    - buildingName: house
+      data:
+      - level: 0
+        cost: 0
+        buildingImage: {fileID: 0}
+      - level: 1
+        cost: 100
+        buildingImage: {fileID: 21300000, guid: d3c6f67d498ce194dbacde9d3f74b1d0, type: 3}
+      - level: 2
+        cost: 200
+        buildingImage: {fileID: 21300000, guid: 9985ba653c5a5de4c8cc620b9e6dca94, type: 3}
+      - level: 3
+        cost: 300
+        buildingImage: {fileID: 21300000, guid: 9311d6db45cc1f145b54fe780359bf73, type: 3}
+    - buildingName: tree
+      data:
+      - level: 0
+        cost: 0
+        buildingImage: {fileID: 0}
+      - level: 1
+        cost: 100
+        buildingImage: {fileID: 21300000, guid: 9658b90bfc9fa494d8b983e14a6ae94a, type: 3}
+      - level: 2
+        cost: 200
+        buildingImage: {fileID: 21300000, guid: 252345b7bf6d0b4418d8fb52c8c1f858, type: 3}
+      - level: 3
+        cost: 300
+        buildingImage: {fileID: 21300000, guid: 0b1461e2fd1f7984f833485ad81bcbb6, type: 3}
+  - level: 1
+    numberOfBuildings: 3
+    buildingInfo:
+    - buildingName: house
+      data:
+      - level: 0
+        cost: 0
+        buildingImage: {fileID: 0}
+      - level: 1
+        cost: 100
+        buildingImage: {fileID: 21300000, guid: 1cf7ce823ebd38e419a803f7a1387fcc, type: 3}
+      - level: 2
+        cost: 200
+        buildingImage: {fileID: 21300000, guid: 8fbe9ea243c2a614586e856a773729bb, type: 3}
+      - level: 3
+        cost: 300
+        buildingImage: {fileID: 21300000, guid: 3f111aa07a470bc44b92903a71e12e24, type: 3}
+    - buildingName: tree
+      data:
+      - level: 0
+        cost: 0
+        buildingImage: {fileID: 0}
+      - level: 1
+        cost: 200
+        buildingImage: {fileID: 21300000, guid: 3ebed03f8f6110e46960884db05bd418, type: 3}
+      - level: 2
+        cost: 400
+        buildingImage: {fileID: 21300000, guid: 77d92472631cc864d935c759c3eb68b5, type: 3}
+      - level: 3
+        cost: 600
+        buildingImage: {fileID: 21300000, guid: cf04c12591ac20643b322142d01e1744, type: 3}
+    - buildingName: contruction
+      data:
+      - level: 0
+        cost: 0
+        buildingImage: {fileID: 0}
+      - level: 1
+        cost: 200
+        buildingImage: {fileID: 21300000, guid: 9c40554da009d80418302e6179b7a14b, type: 3}
+      - level: 2
+        cost: 1000
+        buildingImage: {fileID: 21300000, guid: d5277260e4f52ee4793a3c3e39c4bb66, type: 3}
+      - level: 3
+        cost: 10000
+        buildingImage: {fileID: 21300000, guid: 767a34056e99bb641b65db3e90d30f63, type: 3}
